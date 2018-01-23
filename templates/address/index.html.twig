@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    ola
+
+    <u>
+        {% for address in addresses %}
+            <li>{{ address.description }}</li>
+        {% endfor %}
+    </u>
+
+{% endblock %}
